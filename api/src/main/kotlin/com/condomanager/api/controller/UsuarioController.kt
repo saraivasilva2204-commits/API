@@ -1,7 +1,7 @@
-package com.condomanager.api.CONTROLLER
+package com.condomanager.api.controller
 
-import com.condomanager.api.ENTITY.Usuario
-import com.condomanager.api.SERVICE.UsuarioService
+import com.condomanager.api.entity.Usuario
+import com.condomanager.api.service.UsuarioService
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.DeleteMapping
 import org.springframework.web.bind.annotation.GetMapping

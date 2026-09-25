@@ -1,6 +1,6 @@
-package com.condomanager.api.REPOSITORY
+package com.condomanager.api.repository
 
-import com.condomanager.api.ENTITY.Usuario
+import com.condomanager.api.entity.Usuario
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 

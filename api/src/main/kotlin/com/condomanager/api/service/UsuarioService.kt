@@ -1,7 +1,7 @@
-package com.condomanager.api.SERVICE
+package com.condomanager.api.service
 
-import com.condomanager.api.ENTITY.Usuario
-import com.condomanager.api.REPOSITORY.UsuarioRepository
+import com.condomanager.api.entity.Usuario
+import com.condomanager.api.repository.UsuarioRepository
 import org.springframework.stereotype.Service
 
 @Service

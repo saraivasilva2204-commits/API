@@ -1,4 +1,4 @@
-package com.condomanager.api.ENTITY
+package com.condomanager.api.entity
 
 import jakarta.persistence.Column
 import jakarta.persistence.Entity
@@ -12,7 +12,7 @@ import jakarta.persistence.Table
 data class Usuario(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    val id : Long,
+    val id : Long?,
     @Column(unique = true)
     var email : String,
     var senha : String
